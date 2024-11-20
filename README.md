@@ -1,1 +1,17 @@
 # yifanpackage
+
+## Overview
+1. The linear_regression function helps to calculate the relative statistical values of linear regression.
+It returns a list of relative statistical values of linear regression by entering three inputs, which include
+the data, dependent variable and independent variables.
+
+2. The first input data is just any complete data including several variables, which is the basis for extracting
+dependent and independent variables. The second input is dependent variable, which is a variable going to measure in our study
+and depends on the independent variables. The third input are independent variables, which are variables in a model used to forecast the
+outcome of dependent variable based on their values.
+
+4. For the example above, I have used the self-contained data in R named "mtcars". I have extracted the dependent
+variable named "mpg" and the independent variables names "wt", "hp" and "qsec" from the data. After that, I have 
+calculated the coefficients estimates, standard errors of coefficients, t values of coefficients, mean square error,
+residual standard error, coefficient of determination, f value, p value, and confidence intervals of coefficients.
+The function returns a list of these statistical values as the output.

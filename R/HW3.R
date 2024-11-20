@@ -1,6 +1,6 @@
-#'linear_regression function
+#'@title linear_regression function
 #'
-#'This function helps to calculate the relative statistical values of linear regression.
+#'@description This function helps to calculate the relative statistical values of linear regression.
 #'
 #'@param data dataset. This input value is any dataset including several variables.
 #'@param depend_var dependent variable. A variable would like to measure,

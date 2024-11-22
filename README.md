@@ -118,7 +118,7 @@ The function doesn't include regularization techniques (e.g., Ridge or Lasso reg
 ## Continuous integration
 ```r
   <!-- badges: start -->
-  [![R-CMD-check](https://github.com/yifanwang87582024/yifanpackage/actions/workflows/R-CMD-check.yaml/badge.svg)(https://github.com/yifanwang87582024/yifanpackage/actions/workflows/R-CMD-check.yaml)
+  [![R-CMD-check](https://github.com/yifanwang87582024/yifanpackage/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/yifanwang87582024/yifanpackage/actions/workflows/R-CMD-check.yaml)
   <!-- badges: end -->
 ```
 

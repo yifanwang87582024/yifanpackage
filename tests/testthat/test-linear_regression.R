@@ -1,8 +1,8 @@
 test_that("linear regression works", {
   expect_equal(linear_regression(mtcars, "mpg", c("wt", "hp", "qsec")), list(
-    coefficients = c(27.61053, -4.35880, -0.01782, 0.51083),
+    coefficients = list(27.61053, -4.35880, -0.01782, 0.51083),
     standard_errors = c(8.41993, 0.75270, 0.01498, 0.43922),
-    t_values = c(3.279, -5.791, -1.190, 1.163),
+    t_values = list(3.279, -5.791, -1.190, 1.163),
     mean_square_error = 6.645,
     residual_standard_error = 2.578,
     r_squared = 0.8348,

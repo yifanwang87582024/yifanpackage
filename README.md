@@ -4,7 +4,8 @@ This repository contains an R function for performing Ordinary Least Squares (OL
 ## Function Overview
 The linear_regression function fits a linear regression model to a dataset, estimating the relationship between a dependent variable and one or more independent variables. It returns a list of statistical outputs that are commonly used in regression analysis, making it suitable for both simple and multiple linear regression models.
 
-## Function Name: `linear_regression`
+## Function Name: 
+`linear_regression`
 
 The `linear regression` function from the `yifanpackage` has these parameters below:
 

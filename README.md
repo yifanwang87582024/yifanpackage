@@ -9,22 +9,32 @@ The linear_regression function fits a linear regression model to a dataset, esti
 
 The `linear regression` function from the `yifanpackage` has these parameters below:
 
-data (data.frame): The dataset containing the dependent and independent variables.
-depend_var (string): The name of the dependent (response) variable in data (as a string).
-independ_vars (vector of strings): A vector of column names corresponding to the independent (predictor) variables in data.
+-**data (data.frame)**: The dataset containing the dependent and independent variables.
+
+-**depend_var (string)**: The name of the dependent (response) variable in data (as a string).
+
+-**independ_vars (vector of strings)**: A vector of column names corresponding to the independent (predictor) variables in data.
 
 ## Purpose:
 The `linear regression` function from the `yifanpackage` helps calculate the following statistical values:
 
-Coefficients (Estimates): Estimated coefficients (betas) for each independent variable (including the intercept), which represent the relationship between the dependent variable and each independent variable in the model.
-Standard Errors of Coefficients: The standard errors of the estimated coefficients, which provide an estimate of the variability in the coefficient estimates. Smaller standard errors suggest more precise estimates.
-t-values for each coefficient: The t-values of the coefficients for hypothesis testing. These are calculated as the ratio of the estimated coefficient to its standard error. The t-value is used in hypothesis testing to determine if the coefficient is significantly different from zero.
-Mean Squared Error (MSE): The Mean Squared Error (MSE) is a measure of the average squared difference between the observed actual outcomes and the predicted values. A lower MSE indicates a better-fitting model.
-Residual Standard Error (RSE): The Residual Standard Error (RSE) is the square root of the MSE. It represents the standard deviation of the residuals (the differences between the observed and predicted values). It indicates how well the model fits the data.
-R-squared (Coefficient of Determination): The R-squared value, also known as the coefficient of determination, measures the proportion of the variance in the dependent variable that is explained by the independent variables in the model. R-squared values range from 0 to 1, with higher values indicating better model fit.
-F-statistic: The F-statistic is used to test the overall significance of the regression model. It compares the model with a model that has no predictors (i.e., intercept-only model). A larger F-statistic indicates that the model explains a significant portion of the variance in the dependent variable.
-p-value: The p-value is associated with the F-statistic. It is used to test the null hypothesis that all regression coefficients are equal to zero. A smaller p-value (typically less than 0.05) indicates that at least one predictor variable is significantly related to the dependent variable.
-Confidence Intervals for the coefficients: A matrix containing the 95% confidence intervals for each regression coefficient. The intervals provide a range of plausible values for the coefficients, based on the data. The lower and upper bounds of the intervals are calculated using the estimated coefficients and their standard errors.
+-**Coefficients (Estimates)**: Estimated coefficients (betas) for each independent variable (including the intercept), which represent the relationship between the dependent variable and each independent variable in the model.
+
+-**Standard Errors**: The standard errors of the estimated coefficients, which provide an estimate of the variability in the coefficient estimates. Smaller standard errors suggest more precise estimates.
+
+-**t-values**: The t-values of the coefficients for hypothesis testing. These are calculated as the ratio of the estimated coefficient to its standard error. The t-value is used in hypothesis testing to determine if the coefficient is significantly different from zero.
+
+-**Mean Squared Error (MSE)**: The Mean Squared Error (MSE) is a measure of the average squared difference between the observed actual outcomes and the predicted values. A lower MSE indicates a better-fitting model.
+
+-**Residual Standard Error (RSE)**: The Residual Standard Error (RSE) is the square root of the MSE. It represents the standard deviation of the residuals (the differences between the observed and predicted values). It indicates how well the model fits the data.
+
+-**R-squared (Coefficient of Determination)**: The R-squared value, also known as the coefficient of determination, measures the proportion of the variance in the dependent variable that is explained by the independent variables in the model. R-squared values range from 0 to 1, with higher values indicating better model fit.
+
+-**F-statistic**: The F-statistic is used to test the overall significance of the regression model. It compares the model with a model that has no predictors (i.e., intercept-only model). A larger F-statistic indicates that the model explains a significant portion of the variance in the dependent variable.
+
+-**p-value**: The p-value is associated with the F-statistic. It is used to test the null hypothesis that all regression coefficients are equal to zero. A smaller p-value (typically less than 0.05) indicates that at least one predictor variable is significantly related to the dependent variable.
+
+-**Confidence Intervals**: A matrix containing the 95% confidence intervals for each regression coefficient. The intervals provide a range of plausible values for the coefficients, based on the data. The lower and upper bounds of the intervals are calculated using the estimated coefficients and their standard errors.
 
 ## Installation
 To ensure that the `yifanpackage` package can be installed without any issues, follow these installation instructions:

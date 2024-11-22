@@ -29,6 +29,15 @@ linear_regression = function(data, depend_var, independ_vars) {
   ))
 }
 
+## usethis namespace: start
+#' @importFrom Rcpp sourceCpp
+## usethis namespace: end
+NULL
+## usethis namespace: start
+#' @useDynLib yifanpackage, .registration = TRUE
+## usethis namespace: end
+NULL
+
 linear_regression <- function(data, depend_var, independ_vars) {
   y <- data[[depend_var]] # Response variable
   x <- data[independ_vars] # Extract predictors as data frame

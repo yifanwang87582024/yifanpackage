@@ -22,7 +22,9 @@ It returns a list of relative statistical values of linear regression by enterin
 the data, dependent variable and independent variables.
 
 2. The first input data is just any complete data including several variables, which is the basis for extracting
-dependent and independent variables. The second input is dependent variable, which is a variable going to measure in our study and depends on the independent variables. The third input are independent variables, which are variables in a model used to forecast the outcome of dependent variable based on their values.
+dependent and independent variables. The second input is dependent variable, which is a variable going to measure 
+in our study and depends on the independent variables. The third input are independent variables, which are variables 
+in a model used to forecast the outcome of dependent variable based on their values.
 
 3. For the example above, I have used the self-contained data in R named "mtcars". I have extracted the dependent
 variable named "mpg" and the independent variables names "wt", "hp" and "qsec" from the data. After that, I have 
